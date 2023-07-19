@@ -10,7 +10,7 @@ signin_link.click()
 
 username_box = browser.find_element(By.ID,"login_field")
 username_box.send_keys("ninjacoder22")
-password_box = browser.find_element(By.ID,"login_field")
+password_box = browser.find_element(By.ID,"password")
 password_box.send_keys("todayismonday1")
 password_box.submit()
 
